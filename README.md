@@ -1,27 +1,66 @@
-# Portfolio
+<!-- PROJECT SHIELDS -->
+[![Build Status][build-shield]]()
+[![Contributors][contributors-shield]]()
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://sheldoncoates.github.io/portfolio/">
+    <img src="src/favicon.ico" alt="Logo" width="80" height="80">
+  </a>
 
-## Code scaffolding
+  <h3 align="center">Personal Portfolio</h3>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <p align="center">
+    Personal/Project website hosted on GitHub Pages.
+    <br />
+    <a href="https://sheldoncoates.github.io/portfolio/">View Demo</a>
+    ·
+    <a href="https://github.com/sheldoncoates/porfolio/issues">Report Bug</a>
+   </p>
+</p>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Further help
+Project Link: [https://github.com/sheldoncoates/portfolio/](https://github.com/sheldoncoates/portfolio/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Every developer has their own portfolio -  here's mine.
+
+### Built With
+Here is the tech I used to put together my portfolio.
+* [Angular](https://angular.io)
+* [Font Awesome](https://fontawesome.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Scrollreveal](https://scrollrevealjs.org)
+
+<!-- CONTACT -->
+## Contact
+
+Sheldon Coates - [LinkedIn](https://www.linkedin.com/in/sheldoncoates/) - sjrcoates@gmail.com 
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [GitHub Pages](https://pages.github.com)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sheldoncoates/
+[product-screenshot]: images/portfolio.gif
