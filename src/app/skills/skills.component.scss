@@ -1,0 +1,39 @@
+.jumbotron {
+  background: #ffffff;
+  border: #ccc solid 1px;
+  padding: 40px;
+}
+h1 {
+  font-size: 24px;
+}
+hr {
+  margin: 5px 0px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#skill {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+}
+fa-icon {
+  padding: 20px 0px;
+  font-size: 100px;
+}
+.devicon {
+  padding: 20px 0px;
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #skill {
+    padding: 10px;  
+    width: 160px;
+
+  }
+}

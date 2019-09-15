@@ -1,0 +1,82 @@
+.bannerTop {
+  width: 100%;
+  background-color: #34495e;
+  height: 210px;
+}
+
+#navName {
+  position: absolute;
+  top: 160px;
+  left: 220px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.profileImage {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  border-radius: 100%;
+  top: 115px;
+  left: 60px;
+}
+
+.profileImage img {
+  object-fit: cover;
+  image-orientation: from-image;
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  border: 2px solid white;
+  box-shadow: 0px 3px 18px -6px black;
+}
+
+.bannerBottom {
+  width: 100%;
+  background-color: #fafafa;
+  height: 70px;
+}
+
+.bannerBottom p {
+  font-size: 14px;
+  position: absolute;
+  padding: 20px 0px 10px 220px;
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #666;
+}
+
+.bannerBottom p a {
+  text-decoration: none;
+  color: #666;
+}
+
+.bannerBottom li {
+  display: inline;
+  padding: 5px;
+  font-family: Montserrat;
+}
+
+.bannerBottom li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.bannerBottom span {
+  color: #777;
+}
+@media only screen and (max-width: 600px) {
+  #navName {
+    font-size: 20px;
+    top: 160px;
+    left: 180px;
+  }
+  .bannerBottom p {
+    font-size: 10px;
+    padding-left: 180px;
+  }
+  .profileImage {
+    left: 20px;
+  }
+}

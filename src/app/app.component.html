@@ -1,0 +1,41 @@
+<app-nav-bar></app-nav-bar>
+<app-banner></app-banner>
+<div [ngsReveal] id="about">
+    <app-about></app-about>
+</div>
+<div [ngsReveal] id="projects">
+    <app-feature-project class="item" [pic]="TRADIUM_PIC" [title]="TRADIUM_TITLE" [about]="TRADIUM_ABOUT"
+        [tools]="TRADIUM_TOOLS" [github]="TRADIUM_GITHUB" [website]="TRADIUM_WEBSITE">
+    </app-feature-project>
+</div>
+<div [ngsReveal]>
+    <app-feature-project class="item" [pic]="BBS_PIC" [title]="BBS_TITLE" [about]="BBS_ABOUT" [tools]="BBS_TOOLS"
+        [github]="BBS_GITHUB" [website]="BBS_WEBSITE">
+    </app-feature-project>
+</div>
+<div [ngsReveal]>
+    <app-feature-project class="item" [pic]="SPORTS_PIC" [title]="SPORTS_TITLE" [about]="SPORTS_ABOUT"
+        [tools]="SPORTS_TOOLS" [github]="SPORTS_GITHUB" [website]="SPORTS_WEBSITE">
+    </app-feature-project>
+</div>
+<div class="container d-flex flex-wrap" id="secondary-projects" [ngsRevealSet] [ngsInterval]="100"
+    [ngsSelector]="'.item'">
+    <app-secondary-project class="item" [pic]="EMOTIONAL_PIC" [title]="EMOTIONAL_TITLE" [about]="EMOTIONAL_ABOUT"
+        [tools]="EMOTIONAL_TOOLS" [github]="EMOTIONAL_GITHUB"></app-secondary-project>
+    <app-secondary-project class="item" [pic]="DOLPHIN_PIC" [title]="DOLPHIN_TITLE" [about]="DOLPHIN_ABOUT"
+        [tools]="DOLPHIN_TOOLS" [github]="DOLPHIN_GITHUB"></app-secondary-project>
+    <app-secondary-project class="item" [pic]="TIMETRACKER_PIC" [title]="TIMETRACKER_TITLE" [about]="TIMETRACKER_ABOUT"
+        [tools]="TIMETRACKER_TOOLS" [github]="TIMETRACKER_GITHUB">
+    </app-secondary-project>
+    <app-secondary-project class="item" [pic]="WORKOUTRANDOMIZER_PIC" [title]="WORKOUTRANDOMIZER_TITLE"
+        [about]="WORKOUTRANDOMIZER_ABOUT" [tools]="WORKOUTRANDOMIZER_TOOLS" [github]="WORKOUTRANDOMIZER_GITHUB">
+    </app-secondary-project>
+    <app-secondary-project class="item" [pic]="PHATCHAT_PIC" [title]="PHATCHAT_TITLE" [about]="PHATCHAT_ABOUT"
+        [tools]="PHATCHAT_TOOLS" [github]="PHATCHAT_GITHUB"></app-secondary-project>
+    <app-secondary-project class="item" [pic]="AWS2_PIC" [title]="AWS2_TITLE" [about]="AWS2_ABOUT" [tools]="AWS2_TOOLS"
+        [github]="AWS2_GITHUB"></app-secondary-project>
+</div>
+<div [ngsReveal] id="skills">
+    <app-skills></app-skills>
+</div>
+<app-copyright></app-copyright>

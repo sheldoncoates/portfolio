@@ -1,0 +1,8 @@
+#secondary-projects{
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+    #secondary-projects{
+        justify-content: center;
+    }
+  }

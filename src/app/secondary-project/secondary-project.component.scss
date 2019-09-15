@@ -1,0 +1,43 @@
+.container {
+  padding: 0;
+}
+.jumbotron {
+  background: #ffffff;
+  border: #ccc solid 1px;
+  padding: 0;
+  width: 332px;
+  height: 400px;
+  position: relative;
+}
+h1 {
+  font-size: 20px;
+  padding: 15px 10px 0px 10px;
+}
+p {
+  padding: 10px 10px 0px 10px;
+  font-size: 14px;
+}
+.icons {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}
+fa-icon {
+  padding: 10px 10px 0px 0px;
+  font-size: 25px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+fa-icon:hover {
+  transform: scale(1.2);
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.img {
+  border-radius: 5px;
+  max-width: 330px;
+  max-height: 195px;
+  overflow: hidden;
+}
