@@ -1,2 +1,1 @@
-ng build --prod --base-href "/portfolio/“
-ngh --dir=dist/portfolio
+ng build --prod --output-path docs --base-href /portfolio/
